@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600&display=swap');
+
+body{
+  background-color: rgb(175, 132, 248);
+  font-size: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+header{
+    
+    text-align: center;
+    color: rgb(19, 11, 11);
+}
+.botao-adicionar{
+
+    border-radius: 8px;
+    margin-left: 3px;
+    padding: 5px;
+    appearance: none;
+    border: none;
+    background-color: rgb(175, 132, 248);
+}
+.botao-adicionar:hover{
+    color: white;
+    background-color: rgb(116, 72, 191);
+    transition: 0.8s;
+}
+.botao-finalizar{
+    margin-top: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    appearance: none;
+    border: none;
+    background-color: rgb(175, 132, 248);
+}
+.botao-finalizar:hover{
+    color: white;
+    background-color: rgb(116, 72, 191);
+    transition: 0.8s;
+}
+div{
+    padding: 8px;
+    
+}
+#flista{
+    
+    width: 150px;
+}
+section{
+    
+    margin: auto;
+    height: 300;
+    width: 450px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px
+    rgba(0, 0, 0, 0.314);
+}
+
+#res{
+    
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: rgb(229, 218, 246);
+}
+footer{
+    
+    height: 60px;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+footer >  a{
+    color: white;
+    padding-left: 5px;
+    text-decoration: none;
+    
+}
+.image-footer{
+    -webkit-filter: grayscale(0%);
+}
+
+.image-footer:hover{
+    -webkit-filter: grayscale(100%);
+    transition: 1.5s;
+
+}
+
+
+
+
+
+
