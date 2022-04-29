@@ -78,16 +78,13 @@ footer >  a{
     color: white;
     padding-left: 5px;
     text-decoration: none;
-    
 }
 .image-footer{
     -webkit-filter: grayscale(0%);
 }
-
 .image-footer:hover{
     -webkit-filter: grayscale(100%);
     transition: 1.5s;
-
 }
 
 
