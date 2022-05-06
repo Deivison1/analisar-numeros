@@ -79,12 +79,9 @@ footer >  a{
     padding-left: 5px;
     text-decoration: none;
 }
-.image-footer{
-    -webkit-filter: grayscale(0%);
-}
-.image-footer:hover{
-    -webkit-filter: grayscale(100%);
-    transition: 1.5s;
+footer > i{
+    width: 24px;
+    height: 24px;
 }
 
 
