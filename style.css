@@ -75,13 +75,12 @@ footer{
    
 }
 footer >  a{
-    color: white;
     padding-left: 5px;
     text-decoration: none;
 }
-footer > i{
-    width: 24px;
-    height: 24px;
+.sc-sdee i{
+    font-size: 24px;
+    color: black;
 }
 
 
