@@ -75,18 +75,19 @@ footer{
    
 }
 footer >  a{
-    font-size: 26px;
+    font-size: 30px;
     padding-left: 5px;
     text-decoration: none;
 }
 .bxl-github{
-    color: rgb(110, 106, 106);
+    color: black;
 }
 .bxl-linkedin-square{
     color: #2797CF;
 }
-.bxl-github, .bxl-linkedin-square:hover{
+.bxl:hover{
     color: azure;
+    transition: 0.3s;
 }
 
 
