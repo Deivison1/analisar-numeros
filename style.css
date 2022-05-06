@@ -76,12 +76,15 @@ footer{
 }
 footer >  a{
     font-size: 24px;
-    color: black;
     padding-left: 5px;
     text-decoration: none;
 }
-
-
+.bxl-github{
+    color: rgb(110, 106, 106);
+}
+.bxl-linkedin-square{
+    color: #2797CF;
+}
 
 
 
