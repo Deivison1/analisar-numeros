@@ -99,7 +99,7 @@ footer >  a{
 @media screen and (max-width: 590px){
     section{
         min-width: 300px;
-        min-height: 300px;
+        min-height: 230px;
     }
     .sc-sdee{
         margin-top: 25px;
