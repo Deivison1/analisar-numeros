@@ -100,9 +100,10 @@ footer >  a{
 @media screen and (max-width: 590px){
     section{
         min-width: 300px;
+        max-width: 320px;
     }
     .sc-sdee{
-        margin-top: 20px;
+        margin-top: 25px;
         flex-direction: column;
     }
 }
