@@ -13,7 +13,7 @@ header{
 section{
     
     height: 250px;
-    height: 300px;
+    min-height: 214px;
     min-width: 300px;
     max-width: 450px;
     padding: 10px;
