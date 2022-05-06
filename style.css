@@ -1,14 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600&display=swap');
 
 body{
-  background-color: rgb(175, 132, 248);
-  font-size: 15px;
-  font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+    background-color: rgb(175, 132, 248);
+    font-family: 'Libre Franklin', sans-serif;
 }
 header{
     
     text-align: center;
     color: rgb(19, 11, 11);
+}
+section{
+    
+    
+    height: 300;
+    min-width: 300px;
+    max-width: 450px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px
+    rgba(0, 0, 0, 0.314);
+}
+
+#res{
+    
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: rgb(229, 218, 246);
 }
 .botao-adicionar{
 
@@ -45,45 +66,32 @@ div{
     
     width: 150px;
 }
-section{
-    
-    margin: auto;
-    height: 300;
-    width: 450px;
-    padding: 15px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px
-    rgba(0, 0, 0, 0.314);
-}
 
-#res{
-    
-    border-radius: 8px;
-    border: 1px solid black;
-    background-color: rgb(229, 218, 246);
-}
 footer{
     
     height: 60px;
-    width: 400px;
     display: flex;
-    margin: auto;
+    text-align: center;
     align-items:center;
     justify-content: center;
     margin-top: 10px;
    
+}
+footer > p{
+    color: black;
 }
 footer >  a{
     font-size: 30px;
     padding-left: 5px;
     text-decoration: none;
 }
+
 .bxl-github{
     color: black;
 }
 .bxl-linkedin-square{
     color: #2797CF;
+    border-radius: 50%;
 }
 .bxl:hover{
     color: azure;
