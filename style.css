@@ -2,7 +2,9 @@
 
 body{
     font-size: 15px;
-    background-color: rgb(175, 132, 248);
+    background-color: linear-gradient(170deg, 
+    hsl(0, 0%, 22%) 0%, 
+    hsl(0, 0%, 6%) 30%);
     font-family: 'Libre Franklin', sans-serif;
 }
 header{
